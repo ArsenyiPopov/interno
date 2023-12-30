@@ -1,0 +1,321 @@
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Jost'), local('Jost-Regular'), url('/src/assets/fonts/Jost/Jost-VariableFont_wght.ttf') format('truetype');
+}
+  /* dm-serif-display-regular - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    src: local('DM Serif Display'), local('DMSerifDisplay-Regular'), url('/src/assets/fonts/DM_Serif_Display/DMSerifDisplay-Regular.ttf') format('truetype');
+}
+/* * {
+    border: 1px solid black;
+  } */
+
+  body, a, p {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    color: #4D5053;
+    }
+    img {
+      width: 100%;
+    }
+  a {
+    text-decoration:none;
+    color: #292F36;
+  }
+  a:hover {
+    color: #4d5053d7;
+  }
+  h1, h2, h3, h4 {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    color: #292F36;
+  }
+  h2 {
+    font-size: 50px;
+    line-height: 62px;
+  }
+  /* header start */
+.header {
+padding: 40px 0;
+}
+  .container {
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo {
+    width: 177px;
+    height: 50px;
+  }
+  .nav__menu {
+    display: flex;
+  }
+  .menu__item {
+    margin-right: 50px;
+  }
+  .menu__item:last-child {
+    margin-right: 0px;
+  } 
+  
+/* header end */
+
+
+/* main_block start */
+
+/* .let_your_home {
+height: 700px;
+} */
+  .main_block {
+    display: flex;
+    height: 100%;
+    background-image: url(../assets/img/background.png);
+    border-radius: 80px;
+  }
+  .main_block__content {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 434px;
+    align-content: center;
+    margin-left: 50px;
+  }
+  .main_block__title {
+    margin-top: 200px;
+    font-size: 65px;
+    line-height: 81.25px;
+    margin-bottom: 15px;
+
+  }
+  .main_block__description {
+    color: #4D5053;
+    line-height: 33px;
+    margin-bottom: 15px;
+  }
+  .main_block__btn {
+    display: flex;
+    align-items: center;
+    background-color: #292F36;
+    padding: 26px 49px 26px 48px;
+    border-radius: 18px;
+    font-size: 18px;
+    line-height: 22px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-bottom: 220px;
+  }
+  .main_block__btn:hover {
+    transform: scale(1.01);
+  }
+  .main_block__btn-arrow {
+    margin-left: 10px;
+    transition: transform 0.3s ease;
+    width: 15%;
+  }
+  .main_block__btn:hover .main_block__btn-arrow {
+    transform: translateX(5px);
+
+  }
+  /* main_block end */
+
+  /* our Projects start */
+
+  .our_projects__titel {
+    padding-top: 100px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 50px;
+    line-height: 62px;
+    color: #292F36;
+    font-size: 50px;
+    line-height: 63px;
+  }
+  
+  .our_projects__description {
+    font-size: 22px;
+    text-align: center;
+    color: #4D5053;
+    padding-bottom: 100px;
+  }
+  .our_projects__cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: space-between;
+    padding-bottom: 100px;
+  }
+  .our_projects__card__info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  .card_name__item {
+    font-size: 25px;
+    line-height: 31px;
+  }
+  .card_param__item {
+    color: #4D5053;
+  }
+  .card_btn {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: none;
+  }
+  .card_1 {
+    border-radius: 0 90px 0 0;
+  }
+  .card_2 {
+    border-radius: 90px 0 0;
+  }
+  .card_3 {
+    border-radius: 0 0 90px 0;
+  }
+  .card_4 {
+    border-radius: 0 0 0 90px;
+  }
+
+  /* our projects end */
+
+  /* company-stats start */
+.company-stats {
+  background-color: #F4F0EC;
+}
+.company-stats__block {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  margin: 0;
+  width: 100%; /* Добавим это свойство, чтобы блок занимал всю доступную ширину */
+  box-sizing: border-box;
+}
+.company-stats__item {
+  width: 100%;
+  /* border-right: 1px solid #000; */ 
+}
+.vertical-hr {
+  width: 1px; /* Ширина линии */
+  height: 80px; /* Высота линии */
+  background-color: #CDA274; /* Цвет линии */
+}
+.company-stats__num {
+  font-family: 'DM Serif Display';
+  font-size: 85px;
+  line-height: 106px;
+  color: #CDA274;
+  text-align: center;
+}
+.company-stats__name {
+  color: #4D5053;
+  text-align: center;
+  line-height: 33px;
+}
+/* company-stats end */
+/* news-block start */
+.news-block {
+  padding-bottom: 100px;
+}
+.news-block__description {
+  padding-bottom: 60px;
+}
+.news__cadrs {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.news__card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid #E7E7E7;
+  border-radius: 50px;
+}
+.news__card:hover {
+  background: #F4F0EC;
+}
+.news__card-img {
+  border-radius: 50px 50px 0 0;
+  margin-bottom: 20px;
+}
+.news__card-title {
+  margin-bottom: 20px;
+  font-size: 25px;
+  line-height: 31px;
+}
+.news__card__data{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.datetime {
+  font-family: 'Jost';
+  font-size: 16px;
+  line-height: 24px;
+}
+.news__card_btn {
+  width: 52px;
+  height: 52px;
+}
+.clarification {
+  padding: 10px;
+  position: absolute;
+  top: 249px;
+  left: 41px;
+  background-color:white;
+  border-radius: 10px 10px 10px 0;
+  font-size: 16px;
+}
+/* news-block end */
+
+/* footer start */
+.footer {
+  background-color: #f4f0ec43;
+}
+.footer__block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  }
+  .footer__col {
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 100%; */
+    flex-direction: column;
+    height: 200px;
+    justify-content: space-between;
+  }
+  .social_networks {
+    display: flex;
+
+  }
+.icon_social {
+  height: 18px;
+  width: auto;
+  margin-right: 50px;
+}
+
+/* footer end  */
