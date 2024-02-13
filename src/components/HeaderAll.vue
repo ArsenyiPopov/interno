@@ -7,7 +7,7 @@
           </ul>
           <ul class="nav__menu">
             <li class="menu__item"><router-link class="link" to="/">Home</router-link></li>
-            <li class="menu__item"><router-link class="link" to="/project">Project</router-link></li>
+            <li class="menu__item"><router-link class="link" to="/ProjectPage">Project</router-link></li>
             <li class="menu__item"><router-link class="link" to="/blog">Blog</router-link></li>
           </ul>
         </nav>
