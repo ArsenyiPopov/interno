@@ -14,7 +14,7 @@
         <ul class="footer__col">
             <h4 class="footer_title">Pages</h4>
             <li class="menu__item"><router-link class="link" to="/">Home</router-link></li>
-            <li class="menu__item"><router-link class="link" to="/project">Project</router-link></li>
+            <li class="menu__item"><router-link class="link" to="/ProjectPage">Project</router-link></li>
             <li class="menu__item"><router-link class="link" to="/blog">Blog</router-link></li>
         </ul>
         <div class="footer__col">

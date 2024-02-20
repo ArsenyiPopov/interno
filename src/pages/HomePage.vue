@@ -145,6 +145,9 @@
   import FooterAll from '@/components/FooterAll.vue';
   export default {
     name: 'HomePage',
+    head: {
+    title: 'best furniture in europe'
+  },
     components: {
     HeaderAll,
     FooterAll,

@@ -176,6 +176,29 @@ height: 700px;
     height: 70px;
     border-radius: 50%;
     border: none;
+    font-size: 25px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f0ec; /* Цвет без наведения */
+    cursor: pointer;
+    overflow: hidden;
+    transition: background-color 0.3s; /* Плавный переход цвета при наведении */
+    text-decoration: none; /* Убираем подчеркивание */
+    color: #292F36; /* Цвет иконки стрелки */
+  }
+  
+  .card_btn:hover {
+    background-color: #cda274; /* Цвет при наведении */
+  }
+  
+  .arrow {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 12px 0 12px 20px; /* Стрелка направлена вправо */
+    border-color: transparent transparent transparent #ffffff;
   }
   .card_1 {
     border-radius: 0 90px 0 0;

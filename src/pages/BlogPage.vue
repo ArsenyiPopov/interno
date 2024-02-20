@@ -22,7 +22,9 @@
               classica.</p>
             <div class="news__card__data">
               <time class="datetime" datetime="2022-12-26">26 December, 2022</time>
-              <button class="news__card_btn card_btn">></button>
+              <router-link class="card_btn" to="/BlogDetailsPage">
+        <span class="arrow"></span>
+      </router-link>
             </div>
           </div>
         </article>
@@ -40,7 +42,9 @@
             <h3 class="news__card-title">{{ newsCard.title }}</h3>
             <div class="news__card__data">
               <time class="datetime" :datetime="newsCard.date">{{ newsCard.date }}</time>
-              <button class="news__card_btn card_btn">></button>
+              <router-link class="card_btn" to="/BlogDetailsPage">
+        <span class="arrow"></span>
+      </router-link>
             </div>
           </div>
         </div>
@@ -62,6 +66,9 @@ import HeaderAll from '@/components/HeaderAll.vue';
 import FooterAll from '@/components/FooterAll.vue';
 export default {
   name: 'BlogPage',
+  head: {
+    title: 'Read our news and articles about the world of Furniture'
+  },
   components: {
     HeaderAll,
     FooterAll,

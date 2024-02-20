@@ -1,6 +1,7 @@
 <template>
     <div class="blog_details">
       <HeaderAll></HeaderAll>
+
       <img
         class="latest_post-img"
         src="../assets/img/baner_BlogDetailsPage.png"
@@ -35,12 +36,6 @@
           <div class="serch_tags__wrapper">
             <h3 class="serch_tags__titel">Tags</h3>
             <div class="btn_tags_wrapper">
-              <!-- <button class="tags_btn" @click="filterByTag('Kitchen')">Kitchen</button>
-              <button class="tags_btn" @click="filterByTag('Bedroom')">Bedroom</button>
-              <button class="tags_btn" @click="filterByTag('Building')">Building</button>
-              <button class="tags_btn" @click="filterByTag('Architecture')">Architecture</button>
-              <button class="tags_btn" @click="filterByTag('Kitchen Planning')">Kitchen Planning</button>
-              <button class="tags_btn" @click="filterByTag('Bedroom')">Bedroom</button> -->
               <button
                 v-for="tag in tags"
                 :key="tag"
@@ -67,9 +62,9 @@
   export default {
     name: "BlogDetailsPage",
     components: {
-      HeaderAll,
-      FooterAll,
-    },
+    HeaderAll,
+    FooterAll,
+},
     data() {
       return {
         selectedTag: [],
@@ -77,6 +72,7 @@
         articalDetails: [
           {
             title: "Let’s Get Solution for Building Construction Work",
+            subTitle: "Minimal Bedroom",
             imgSrc: require("../assets/img/kitchen.png"),
             date: "26 December, 2022",
             clarification: "Interior / Home / Decore",
@@ -88,6 +84,7 @@
           },
           {
             title: "Let’s Get Solution for Building Construction Work",
+            subTitle: "Minimal Bedroom",
             imgSrc: require("../assets/img/Bedroom.jpg"),
             date: "26 December, 2022",
             clarification: "Interior / Home / Decore",
@@ -99,6 +96,7 @@
           },
           {
             title: "Let’s Get Solution for Building Construction Work",
+            subTitle: "Modern Bedroom",
             imgSrc: require("../assets/img/Building.jpg"),
             date: "26 December, 2022",
             clarification: "Interior / Home / Decore",
@@ -110,6 +108,7 @@
           },
           {
             title: "Let’s Get Solution for Building Construction Work",
+            subTitle: "Minimal Bedroom",
             imgSrc: require("../assets/img/Architecture.jpg"),
             date: "26 December, 2022",
             clarification: "Interior / Home / Decore",
@@ -121,6 +120,7 @@
           },
           {
             title: "Let’s Get Solution for Building Construction Work",
+            subTitle: "Modern Bedroom",
             imgSrc: require("../assets/img/Kitchen Planning.jpg"),
             date: "26 December, 2022",
             clarification: "Interior / Home / Decore",
@@ -132,6 +132,7 @@
           },
           {
             title: "Let’s Get Solution for Building Construction Work",
+            subTitle: "Minimal Bedroom",
             imgSrc: require("../assets/img/Bedroom1.jpg"),
             date: "26 December, 2022",
             clarification: "Interior / Home / Decore",
