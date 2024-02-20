@@ -4,7 +4,7 @@
         <div class="container">
             <div class="footer__block">
         <div class="footer__col">
-            <img class="logo" src="../assets/img/Logo.svg" alt="logo">
+            <router-link to="/"><img class="logo" src="../assets/img/Logo.svg" alt="logo"></router-link>
             <p class="footer__description">It is a long established fact that a reader<br> will be distracted lookings.</p>
             <div class="social_networks">
                <a class="social_networks__link" href="#"><img src="../assets/img/tw.svg" alt="" class="icon_social"></a>

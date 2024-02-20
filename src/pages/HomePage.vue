@@ -32,7 +32,9 @@
                             <h3 class="card_name__item">Modern Kitchan</h3>
                             <p class="card_param__item">Decor / Artchitecture</p>
                         </div>
-                        <button class="card_btn">></button>
+                        <router-link class="card_btn" to="/ProjectDitails">
+        <span class="arrow"></span>
+      </router-link>
                     </div>
                 </div>
                 <div class="our_projects__card">
@@ -42,7 +44,9 @@
                             <h3 class="card_name__item">Modern Kitchan</h3>
                             <p class="card_param__item">Decor / Artchitecture</p>
                         </div>
-                        <button class="card_btn">></button>
+                        <router-link class="card_btn" to="/ProjectDitails">
+        <span class="arrow"></span>
+      </router-link>
                     </div>
                 </div>
                 <div class="our_projects__card">
@@ -52,7 +56,9 @@
                             <h3 class="card_name__item">Modern Kitchan</h3>
                             <p class="card_param__item">Decor / Artchitecture</p>
                         </div>
-                        <button class="card_btn">></button>
+                        <router-link class="card_btn" to="/ProjectDitails">
+        <span class="arrow"></span>
+      </router-link>
                     </div>
                 </div>
                 <div class="our_projects__card">
@@ -62,7 +68,9 @@
                             <h3 class="card_name__item">Modern Kitchan</h3>
                             <p class="card_param__item">Decor / Artchitecture</p>
                         </div>
-                        <button class="card_btn">></button>
+                        <router-link class="card_btn" to="/ProjectDitails">
+        <span class="arrow"></span>
+      </router-link>
                     </div>
                 </div>
             </div>
@@ -108,7 +116,9 @@
                 <h3 class="news__card-title">Let’s Get Solution For<br> Building Construction<br> Work</h3>
                 <div class="news__card__data">
                     <time class="datetime" datetime="2022-12-26">26 December, 2022</time>
-                    <button class="news__card_btn card_btn">></button>
+                    <router-link class="card_btn" to="/BlogDetailsPage">
+        <span class="arrow"></span>
+      </router-link>
                 </div>
             </div>
                 <div class="news__card">
@@ -118,7 +128,9 @@
                         Ideas.</h3>
                     <div class="news__card__data">
                         <time class="datetime" datetime="2022-12-26">26 December, 2022</time>
-                        <button class="news__card_btn card_btn">></button>
+                        <router-link class="card_btn" to="/BlogDetailsPage">
+        <span class="arrow"></span>
+      </router-link>
                     </div>
                 </div>
                 <div class="news__card">
@@ -128,7 +140,9 @@
                         Solution</h3>
                     <div class="news__card__data">
                         <time class="datetime" datetime="2022-12-26">26 December, 2022</time>
-                        <button class="news__card_btn card_btn">></button>
+                        <router-link class="card_btn" to="/BlogDetailsPage">
+        <span class="arrow"></span>
+      </router-link>
                     </div>
                 </div>
             </div>

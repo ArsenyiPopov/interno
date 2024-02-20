@@ -3,7 +3,7 @@
       <div class="container">
         <nav class="nav">
           <ul class="nav__logo">
-            <li><a href="#"><img class="logo" src="../assets/img/Logo.svg" alt="logo"></a></li>
+            <li><router-link to="/"><img class="logo" src="../assets/img/Logo.svg" alt="logo"></router-link></li>
           </ul>
           <ul class="nav__menu">
             <li class="menu__item"><router-link class="link" to="/">Home</router-link></li>
