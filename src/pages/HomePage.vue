@@ -1,3 +1,10 @@
+<script setup>
+import { useSeoMeta} from '@unhead/vue';
+useSeoMeta({
+  title: 'Best furniture in europe',
+  description: 'Our best furniture design projects, for you. Order from us, furniture design is our best solution ',
+});
+</script>
 <template>
   <div class="home-page">
   <HeaderAll></HeaderAll>
@@ -159,9 +166,7 @@
   import FooterAll from '@/components/FooterAll.vue';
   export default {
     name: 'HomePage',
-    head: {
-    title: 'best furniture in europe'
-  },
+
     components: {
     HeaderAll,
     FooterAll,

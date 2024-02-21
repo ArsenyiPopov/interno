@@ -1,3 +1,10 @@
+<script setup>
+import { useSeoMeta} from '@unhead/vue';
+useSeoMeta({
+  title: 'Our best furniture design projects',
+  description: 'Our best furniture design projects, for you. Order from us, furniture design is our best solution ',
+});
+</script>
 <template>
   <div>
     <HeaderAll></HeaderAll>
@@ -47,9 +54,6 @@ import FooterAll from "@/components/FooterAll.vue";
 import ProjectPageCard from "@/components/ProjectPageCard.vue";
 export default {
   name: "ProjectPage",
-  head: {
-    title: 'Our best projects'
-  },
   components: {
     HeaderAll,
     FooterAll,

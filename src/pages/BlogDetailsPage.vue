@@ -1,3 +1,10 @@
+<script setup>
+import { useSeoMeta} from '@unhead/vue';
+useSeoMeta({
+  title: 'Read our news and articles about the world of Furniture',
+  description: 'Our best furniture design projects, for you. Order from us, furniture design is our best solution ',
+});
+</script>
 <template>
     <div class="blog_details">
       <HeaderAll></HeaderAll>

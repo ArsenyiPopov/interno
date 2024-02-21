@@ -1,3 +1,11 @@
+<script setup>
+import { useSeoMeta} from '@unhead/vue';
+useSeoMeta({
+  title: 'Our best furniture design project_ditails',
+  description: 'Our best furniture design projects, for you. Order from us, furniture design is our best solution ',
+});
+</script>
+
 <template>
   <HeaderAll />
   <div class="project_ditails">
